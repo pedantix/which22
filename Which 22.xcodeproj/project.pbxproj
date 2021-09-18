@@ -13,6 +13,9 @@
 		28B0211826F50431001EB19E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B0211726F50431001EB19E /* Preview Assets.xcassets */; };
 		28B0212326F50431001EB19E /* Which_22Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0212226F50431001EB19E /* Which_22Tests.swift */; };
 		28B0212E26F50431001EB19E /* Which_22UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0212D26F50431001EB19E /* Which_22UITests.swift */; };
+		28B0213C26F50442001EB19E /* Canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0213B26F50442001EB19E /* Canada.swift */; };
+		28B0213E26F5044C001EB19E /* TheUK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0213D26F5044C001EB19E /* TheUK.swift */; };
+		28B0214026F50457001EB19E /* Mexico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0213F26F50457001EB19E /* Mexico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		28B0212926F50431001EB19E /* Which 22UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Which 22UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B0212D26F50431001EB19E /* Which_22UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Which_22UITests.swift; sourceTree = "<group>"; };
 		28B0212F26F50431001EB19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B0213B26F50442001EB19E /* Canada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canada.swift; sourceTree = "<group>"; };
+		28B0213D26F5044C001EB19E /* TheUK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUK.swift; sourceTree = "<group>"; };
+		28B0213F26F50457001EB19E /* Mexico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mexico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				28B0211426F50431001EB19E /* Assets.xcassets */,
 				28B0211926F50431001EB19E /* Info.plist */,
 				28B0211626F50431001EB19E /* Preview Content */,
+				28B0213B26F50442001EB19E /* Canada.swift */,
+				28B0213D26F5044C001EB19E /* TheUK.swift */,
+				28B0213F26F50457001EB19E /* Mexico.swift */,
 			);
 			path = "Which 22";
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 			files = (
 				28B0211326F5042F001EB19E /* ContentView.swift in Sources */,
 				28B0211126F5042F001EB19E /* Which_22App.swift in Sources */,
+				28B0214026F50457001EB19E /* Mexico.swift in Sources */,
+				28B0213C26F50442001EB19E /* Canada.swift in Sources */,
+				28B0213E26F5044C001EB19E /* TheUK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,21 @@
 
 import SwiftUI
 
+enum MainNavigation: String, Equatable {
+    case uk
+    case canada
+    case mexico
+}
+
 struct ContentView: View {
+    @EnvironmentObject var navigation: Navigation
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $navigation.mainNav) {
+            TheUK().tag(MainNavigation.uk)
+            Canada().tag(MainNavigation.canada)
+            Mexico().tag(MainNavigation.mexico)
+        }
     }
 }
 
