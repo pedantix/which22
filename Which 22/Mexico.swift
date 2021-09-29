@@ -9,12 +9,7 @@ import SwiftUI
 
 struct Mexico: View {
     var body: some View {
-        VStack {
-            Text("Mexico").font(.title)
-            Text("Smallest Map, no varients or scenarios but a national train company that keeps it interesting with a twisted Mechanic").font(.body)
-        }.tabItem {
-            Text("Mexcio")
-        }
+        GameContentView(gameData: MexcioGame())
     }
 }
 

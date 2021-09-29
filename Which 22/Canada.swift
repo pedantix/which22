@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct Canada: View {
+    let gameData = CanadaGame()
+
     var body: some View {
-        VStack {
-            Text("Canada").font(.title)
-            Text("Biggest Map some think its the most fun, lots of empty spaces, has two optional scenarios").font(.body)
-        }.tabItem {
-            Text("Canada")
-        }
+        GameContentView(gameData: gameData)
     }
 }
 
